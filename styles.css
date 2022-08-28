@@ -1,0 +1,83 @@
+/******************************************************** Formatações gerais */
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a {
+    margin: 0;
+    color: rgb(163, 159, 159);
+}
+
+
+/******************************************************** Formatação da página*/
+.container {
+    max-width: 2560px;
+    width: 100%;
+}
+
+/* início do cabeçalho*/
+header {
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+    border-bottom: 1px solid salmon;
+}
+
+.nav-container {
+    max-width: 2560px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-container ul {
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+}
+
+.nav-container ul li {
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+}
+
+.nav-container ul li a {
+    text-decoration: none;
+    color: rgb(163, 159, 159);
+    transition: .5s;
+    font-weight: bold;
+}
+
+.nav-container ul li a:hover {
+    color: salmon;
+}
+
+#logo {
+    font-size: 40px;
+    width: fit-content;
+}
+
+#logo a {
+    text-decoration: none;
+}
+
+#logo a i {
+    color: salmon;
+}
+/* fim do cabeçalho*/
